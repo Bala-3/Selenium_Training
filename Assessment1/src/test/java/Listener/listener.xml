@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite_1">
+<listeners>
+<listener class-name="Listener.listener" />
+</listeners>
+<test name ="First Test">
+<classes>
+<class name="Listener.PHPTravels">
+</class>
+</classes>
+</test>
+</suite>

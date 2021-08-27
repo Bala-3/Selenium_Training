@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test_Suite_1]">
+  <listeners>
+    <listener class-name="Listener.listener"/>
+  </listeners>
+  <test name="First Test(failed)">
+    <classes>
+      <class name="Listener.PHPTravels">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Listener.PHPTravels -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [Test_Suite_1] -->
